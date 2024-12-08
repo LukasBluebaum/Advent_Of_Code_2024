@@ -20,7 +20,6 @@ def dfs(i, j, d, visited, dirs, lines):
     dfs(i, j, (d + 1) % 4, visited, dirs, lines)
 
 
-
 dirs = {0: (-1, 0), 1: (0, 1), 2: (1, 0), 3: (0, -1)}
 visited = set()
 for i in range(len(lines)):
